@@ -27,7 +27,8 @@ class SelectHeaderStyleButton extends StatefulWidget {
   final List<Attribute> attributes;
 
   @override
-  _SelectHeaderStyleButtonState createState() => _SelectHeaderStyleButtonState();
+  _SelectHeaderStyleButtonState createState() =>
+      _SelectHeaderStyleButtonState();
 }
 
 class _SelectHeaderStyleButtonState extends State<SelectHeaderStyleButton> {
